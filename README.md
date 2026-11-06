@@ -100,7 +100,7 @@ The script will automatically:
 3. Save the combined dataset to `data/public/citibike_combined_trips.csv.gz`.
 4. Delete the original monthly ZIP archives after successfully merging them to conserve storage space.
 
-**Once the script displays "Done!", the Citi Bike dataset is ready to use alongside the other five datasets in `data/public/`.**
+**Once the script displays "done", the Citi Bike dataset is ready to use alongside the other five datasets in `data/public/`.**
 
 **Note:** Python 3.10 or newer is required. The downloader does not require additional Python packages.
 
