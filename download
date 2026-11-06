@@ -1,0 +1,28 @@
+# Locally acquired Citi Bike raw trip data — do NOT redistribute standalone.
+/data/citibike_local/*
+!/data/citibike_local/.gitkeep
+/data/public/citibike_combined_trips.csv.gz
+
+# Optional larger datasets and incomplete transfers
+/data/optional_local/*
+!/data/optional_local/.gitkeep
+*.part
+
+# Python environments, secrets and caches
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Generated example charts
+/outputs/
+
+# NOTE: .gitignore does not protect ZIP archives or forced git additions.
+# Before sharing a ZIP, explicitly exclude Citi Bike data and the local cache.
