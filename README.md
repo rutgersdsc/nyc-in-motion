@@ -63,6 +63,8 @@ These datasets cover **August 1 – September 30, 2025**, except for the MTA acc
 
 ### 3. (OPTIONAL) Getting Citi Bike Trip Data (August–September 2025)
 
+**Please keep in mind that the Citi Bike dataset is ~2GB in size!** It is totally optional, if you would like to incorporate it into your project.
+
 If you would like to incorporate Citi Bike trip data into your project, please follow the steps below. Citi Bike trip data is not included by default due to redistribution restrictions. Each team must run the provided script to download and combine the August and September 2025 trip records on their own computer.
 
 Make sure you have **Python 3.10 or newer** installed. If needed, download it from https://www.python.org/downloads/.
